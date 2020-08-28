@@ -1,1 +1,1 @@
-# stanislavevseenko-gbsp.github.io
+# stanislavevseenko-gbsp
