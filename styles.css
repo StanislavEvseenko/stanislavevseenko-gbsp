@@ -1,0 +1,160 @@
+.container {
+    max-width: 1280px;
+}
+.row {
+    width: 100%;
+}
+.parent {
+    max-width: 640px;
+    cursor: pointer;
+    position: relative;
+  }
+  
+  .parent img {
+    width: 100%;
+    border-radius: 4px;
+  }
+  
+  .today {
+    color: #08d092;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  
+  .parent:after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0);
+    position: absolute;
+    top: 0;
+  }
+  
+  .parent:hover:after {
+    background: rgba(255, 255, 255, .3);
+  }
+  
+  .label {
+    color: white;
+    text-transform: uppercase;
+    background: #08d092;
+    border-radius: 4px;
+    padding: 0 15px;
+    position: absolute;
+    top: 10px;
+    left: -10px;
+    font-weight: bold;
+    line-height: 24px;
+    font-size: 0.7em;
+    letter-spacing: 2px;
+    font-family: Roboto,San Francisco,Helvetica Neue,Helvetica,Arial;
+  }
+  
+  .d-block {
+    cursor: pointer;
+    font-size: 17px;
+    line-height: 24px;
+    color: #50667b;
+    font-weight: bold;
+    font-family: Roboto,San Francisco,Helvetica Neue,Helvetica,Arial;
+  }
+
+  .d-block:hover {
+    color: #6b89a5;
+    text-decoration: none;
+  }
+  
+  .grey {
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 1.17;
+    color: rgba(80, 102, 123, 0.5);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+
+  .career {
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 1.17;
+    color: #6f64e9;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+
+  .activity {
+    font-size: 13px;
+    color: rgba(80,102,123,.5)
+  }
+
+  /* NEWS */
+
+  .news {
+    background-color: rgba(80,102,123,.05);
+  }
+
+  .article-img-wrap {
+    width: 160px;
+    height: 90px;
+    cursor: pointer;
+    position: relative;
+  }
+
+  .article-img {
+    width: 160px;
+    border-radius: 4px;
+  }
+
+  .article-img-wrap:after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0);
+    position: absolute;
+    top: 0;
+  }
+  
+  .article-img-wrap:hover:after {
+    background: rgba(255, 255, 255, .3);
+  }
+
+  .article-heading,
+  .topic-heading {
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    color: #3f5368;
+  }
+
+
+
+  .new-articles,
+  .new-topics {
+    box-sizing: border-box;
+    padding: 28px 0 0 0;
+  }
+
+  .new-articles-heading,
+  .new-topics-heading {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: #3f5368;
+    margin-bottom: 38px;
+  }
+
+  .user {
+    width: 32px;
+    height: 32px;
+  }
+
+  .answer {
+    font-size: 15px;
+    line-height: 24px;
+  }
+
+  article div img {
+    cursor: pointer;
+  }
